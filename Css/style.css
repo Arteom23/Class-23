@@ -1,0 +1,165 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common Css Start */
+/* Navbar pattern */
+.navbar {
+  /* background: #3E3D39; */
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  z-index: 777;
+  width: 100%;
+   
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:#fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #ac9a86;
+}
+/* Navbar pattern */
+/* Banner pattern */
+#banner{
+    text-align: center;
+   
+    background: url(../images/Waxom-Hemepage.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    padding: 380px 0px;
+    background: rgba(5, 4, 4, 0.7);
+}
+.banner_text h3{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.banner_text h1{
+    padding: 25px 0px;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+.banner_text p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    margin:0 auto;
+    line-height: 24px;
+   
+}
+.banner_text a{
+    padding:21px 40px 18px ;
+    color: #fff;
+    background: #998675;
+    border-radius: 5px;
+    border-bottom: 2px solid #736357;
+    margin-top: 50px;
+}
+/* Banner pattern */
+/* Service Part */
+#service_part{
+    padding: 50px 0px 75px;
+}
+.service_item{
+    position: relative;
+}
+.service_item i{
+    font-size: 40px;
+    transition: all linear 0.4s;
+}
+.service_item h4{
+    padding: 20px 0px ;
+    color: #555555;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    transition: all linear 0.4s;
+}
+.service_item p{
+   width: 269px;
+   font-size: 14px;
+   line-height: 19px;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 300;
+   color: #ac9a86;
+   margin: 0 auto;
+   transition: all linear 0.4s;
+}
+.service_item::after{
+   content: '';
+   position: absolute;
+   height: 3px;
+   width: 70px;
+   background: #f1eee9;
+   bottom:  -30px;
+   left: 50%;
+   transform: translateX(-50%);
+   transition: all linear 0.4s;
+}
+.service_item:hover i {
+    color: #c7b299;
+}
+.service_item:hover h4 {
+    color: #c7b299;
+}
+.service_item:hover p {
+    color: #c7b299;
+}
+.service_item:hover::after{
+    background: #c7b299;
+    width: 100px;
+}
+    /* Service Part */
+    #idea{
+        padding-top: 80px;
+        background: #fbfaf8;
+    }
+    .common_title h3{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+    }
+    .common_title_text p{
+        width: 737px;
+        font-size: 16px;
+        font-family:'Montserrat', sans-serif;
+        font-weight: 300;
+        line-height: 28px;
+        margin: auto;
+        padding: 20px 0px 35px;
+    } 
+    /* Service Part */
+    /* Multiple Wordpress Part */
+    #Multiple_Wordpress{
+
+    }
+     /* Multiple Wordpress Part */
